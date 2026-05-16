@@ -14,3 +14,4 @@ Notes on linear algebra: vector spaces, matrices, and linear maps.
 2. [Isomorphism of Vector Spaces](notes/linear_algebra/isomorphism.md)
 3. [Change of Basis](notes/linear_algebra/changeofbasis.md)
 4. [Linear Subspaces](notes/linear_algebra/linear_subspaces.md)
+5. [Quotient Spaces](notes/linear_algebra/quotient_spaces.md)
