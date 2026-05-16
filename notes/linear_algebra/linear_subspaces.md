@@ -82,7 +82,7 @@ $$
 
 in $\mathbb R^2$ is not a subspace, because it does not pass through the origin.
 
-![Subspace versus not-a-subspace: a line through the origin in the plane (left) is closed under addition and scaling, while the shifted line x+y=1 (right) fails because it does not contain the zero vector.](img/01-subspace-vs-not.svg)
+![Subspace versus not-a-subspace: a line through the origin in the plane (left) is closed under addition and scaling, while the shifted line x+y=1 (right) fails because it does not contain the zero vector.](figures/01-subspace-vs-not.svg)
 
 ### A subspace is itself a vector space
 
@@ -194,7 +194,7 @@ $$
 
 is the plane through the origin spanned by $v$ and $w$.
 
-![Linear spans: the span of one nonzero vector v is a line through the origin (left), and the span of two linearly independent vectors v and w is a plane through the origin (right). The span consists of all finite linear combinations.](img/02-span.svg)
+![Linear spans: the span of one nonzero vector v is a line through the origin (left), and the span of two linearly independent vectors v and w is a plane through the origin (right). The span consists of all finite linear combinations.](figures/02-span.svg)
 
 ### Theorem: the span is the smallest subspace containing $S$
 
@@ -288,7 +288,7 @@ This is one of the most natural constructions. Intersecting subspaces means impo
 
 For example, in $\mathbb R^3$, two different planes through the origin often intersect in a line through the origin. That line is again a subspace.
 
-![Intersection of two planes through the origin in R^3 is a line through the origin. Any vector that lies in both planes lies in their intersection, and the intersection inherits closure under addition and scaling from each plane.](img/03-intersection.svg)
+![Intersection of two planes through the origin in R^3 is a line through the origin. Any vector that lies in both planes lies in their intersection, and the intersection inherits closure under addition and scaling from each plane.](figures/03-intersection.svg)
 
 ### Proof idea
 
@@ -312,7 +312,7 @@ Take two different lines through the origin in $\mathbb R^2$. Each line is a sub
 
 So the union is not closed under addition.
 
-![Why the union of two subspaces usually fails to be a subspace: pick u on the first line U and w on the second line W. The sum u+w is constructed by the parallelogram rule and lands off both lines, so u+w is not in U union W.](img/04-union-fails.svg)
+![Why the union of two subspaces usually fails to be a subspace: pick u on the first line U and w on the second line W. The sum u+w is constructed by the parallelogram rule and lands off both lines, so u+w is not in U union W.](figures/04-union-fails.svg)
 
 ### Theorem: union of two subspaces
 
@@ -352,7 +352,7 @@ U_1+\cdots+U_m
 \{u_1+\cdots+u_m\mid u_i\in U_i\}.
 $$
 
-![The sum U + W consists of every vector that can be written as u + w with u in U and w in W. Geometrically the parallelogram rule completes every pair into a new vector, and the resulting set fills the smallest subspace containing both U and W.](img/05-sum.svg)
+![The sum U + W consists of every vector that can be written as u + w with u in U and w in W. Geometrically the parallelogram rule completes every pair into a new vector, and the resulting set fills the smallest subspace containing both U and W.](figures/05-sum.svg)
 
 ### Theorem: the sum is the smallest subspace containing the given subspaces
 
@@ -454,7 +454,7 @@ This is a crucial viewpoint:
 
 This does not mean every subspace is simple in every coordinate system. It means that the right basis makes the structure visible.
 
-![Adapted basis: in V, choose basis vectors e_1 and e_2 spanning the subspace U, then extend by e_3 outside U. In these coordinates, a vector lies in U exactly when its e_3 coordinate is zero, so U becomes a coordinate subspace.](img/06-adapted-basis.svg)
+![Adapted basis: in V, choose basis vectors e_1 and e_2 spanning the subspace U, then extend by e_3 outside U. In these coordinates, a vector lies in U exactly when its e_3 coordinate is zero, so U becomes a coordinate subspace.](figures/06-adapted-basis.svg)
 
 ---
 
@@ -503,7 +503,7 @@ This theorem gives a very concrete picture: a pair of subspaces can be organized
 2. the part of $U$ outside the common part;
 3. the part of $W$ outside the common part.
 
-![Simultaneous adapted basis for two subspaces U and W: a basis e_i of the intersection U intersect W (purple, lying on the intersection line of the planes), extended by vectors u_j inside U but transverse to the intersection (blue), and by vectors w_k inside W but transverse to the intersection (orange). Together they form a basis of U + W.](img/07-simultaneous-basis.svg)
+![Simultaneous adapted basis for two subspaces U and W: a basis e_i of the intersection U intersect W (purple, lying on the intersection line of the planes), extended by vectors u_j inside U but transverse to the intersection (blue), and by vectors w_k inside W but transverse to the intersection (orange). Together they form a basis of U + W.](figures/07-simultaneous-basis.svg)
 
 ---
 
@@ -517,7 +517,7 @@ $$
 
 This is the **Grassmann formula**.
 
-![Grassmann formula as inclusion-exclusion: adding dim U and dim W counts the dimension of the overlap U intersect W twice, so we subtract it once to obtain dim(U + W).](img/08-grassmann.svg)
+![Grassmann formula as inclusion-exclusion: adding dim U and dim W counts the dimension of the overlap U intersect W twice, so we subtract it once to obtain dim(U + W).](figures/08-grassmann.svg)
 
 ### Why the formula makes sense
 
