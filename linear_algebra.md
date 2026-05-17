@@ -15,3 +15,4 @@ Notes on linear algebra: vector spaces, matrices, and linear maps.
 3. [Change of Basis](notes/linear_algebra/changeofbasis.md)
 4. [Linear Subspaces](notes/linear_algebra/linear_subspaces.md)
 5. [Quotient Spaces](notes/linear_algebra/quotient_spaces.md)
+6. [Direct Sums, Complements, and Decompositions](notes/linear_algebra/direct_sums_and_complements.md)
