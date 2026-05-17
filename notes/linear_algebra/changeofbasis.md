@@ -108,7 +108,7 @@ The matrix $C$ sends new coordinates to old coordinates. The inverse matrix $C^{
 
 ---
 
-## 6. Why the basis and coordinates transform in opposite directions
+## 5. Why the basis and coordinates transform in opposite directions
 
 We have two formulas: $e' = eC$ and $X' = C^{-1} X$. So the basis changes by $C$ while the coordinate column changes by $C^{-1}$.
 
@@ -124,7 +124,7 @@ So the vector is unchanged. Only its coordinate description changes.
 
 ---
 
-## 7. Sanity check: choosing a new basis vector
+## 6. Sanity check: choosing a new basis vector
 
 This is the simplest check of the formula. Take the coordinate column
 
@@ -144,7 +144,7 @@ More generally, if $X'$ is the $j$-th standard column, then $x = $ $$e'_j$$ and 
 
 ---
 
-## 8. What happens when $V = K^n$?
+## 7. What happens when $V = K^n$?
 
 Now suppose the vector space itself is the arithmetic space $V = K^n$. At first, it may seem that vectors and coordinates are the same thing. This is only partly true.
 
@@ -162,7 +162,7 @@ So even in $K^n$, one should distinguish between the vector $x$ itself, its coor
 
 ---
 
-## 9. Example in $K^2$
+## 8. Example in $K^2$
 
 Let $V = K^2$, and let the old basis be the standard basis. Choose a new basis
 
@@ -200,7 +200,7 @@ The vector did not change. Only the coordinate system changed.
 
 ---
 
-## 10. Change of basis as a change of isomorphism
+## 9. Change of basis as a change of isomorphism
 
 Each basis gives an isomorphism from coordinate space to the vector space. For the old basis $e$ we have $\varphi_e : K^n \to V$ with $\varphi_e(X) = eX$. For the new basis $e'$ we have $\varphi_{e'} : K^n \to V$ with $\varphi_{e'}(X') = e' X'$.
 
@@ -224,7 +224,7 @@ and this composition equals $\varphi_{e'}$.
 
 ---
 
-## 11. Final summary
+## 10. Final summary
 
 Let $e$ be the old basis and $e'$ be the new basis. The change-of-basis matrix $C = (c_{ij})$ is defined by
 
