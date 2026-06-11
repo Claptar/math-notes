@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Sigma-Algebras"
+section: probability
+sidebar: probability
 ---
 
 # 10. Sigma-Algebras
